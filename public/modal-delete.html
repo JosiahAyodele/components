@@ -6,6 +6,15 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-
+    <div class="h-screen w-full flex items-center justify-center">
+        <div class="relative bg-gray-300 w-120 h-60 flex items-center flex-col justify-center gap-15 shadow-xl rounded">
+            <div class="absolute top-2 right-2 size-6 rounded-full bg-red-500 flex items-center justify-center font-semibold text-gray-100 text-3xl pb-2">x</div>
+            <p class="text-gray-900 font-semibold text-lg">Are you sure you want to delete your Account?</p>
+            <div class="flex gap-10">
+                <button class="bg-green-500 py-2 px-4 font-semibold text-white rounded-md shadow-xl hover:scale-105 transition duration-500  cursor-pointer">No. Cancel deletion</button>
+                <button class="bg-red-500 py-2 px-4 font-semibold text-white rounded-md shadow-xl hover:scale-105 transition duration-500    cursor-pointer">Yes. Delete account</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
